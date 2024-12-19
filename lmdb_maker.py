@@ -207,21 +207,7 @@ def mainpulate_bone_helper_function(keypoints, scale=0.1):
 if __name__ == '__main__':
     number = 100
 
-    #augment_name = 'original_face_first_54'
-    #augment_name = 'normalize_new_neo_54_hand_0_0.5'
-    #augment_name = 'gaussian_54_normalize_0_0.5__0.04'
     augment_name = 'rotate_54_normalize_neo_hand_0_0.5_rwrist__8_0_0'
-    #augment_name = 'zoom_54_normalize_neo_hand_0_0.5__0_0.15_0.15'
-
-    #augment_name = 'gaussian_54_normalize_neo_hand_0_0.5__0.055_0.01_0.01'
-    #augment_name = 'gaussian_54_normalize_neo_hand_0_0.5__0.09_0._0.'
-    #augment_name = 'gaussian_54_normalize_neo_hand_0_0.5__0.01_0.015_0.015'
-    #augment_name = 'rotate_normalize_neo_hand_0_0.5__40'
-    #augment_name = '2x_normalize_neo_54_hand_0_0.5'
-    #augment_name = 'rotate_first_normalize_hand_0_0.5__50_50_50'
-    #augment_name =  'rotate_original__70'
-    #augment_name = 'flip_54_normalize_neo_hand_0_0.5__0_1_1'
-    #augment_name = 'normalize_0.5'
 
 
     asl = '/data/sl_datasets/wlasl/asl%d.json'%number
